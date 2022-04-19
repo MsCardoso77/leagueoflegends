@@ -670,13 +670,13 @@ body {
     .selectyourchampion p {
         font-size: 16px;
         margin: 0;
-        padding: 8% 6% 2% 30%;
+        padding: 8% 6% 2% 35%;
     } 
 
     .button2 {
         font-size: 16px;
         padding: 12px 16px;
-        margin: 24px 36px 0px 0px;
+        margin: 24px 40px 0px 0px;
     }
 
 
@@ -685,7 +685,7 @@ body {
     .news {
         background-image: url(images/news.svg);
         background-size: cover;
-        min-height: 195vh;    
+        min-height: 210vh;    
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -712,13 +712,15 @@ body {
         align-items: center;
         width: 300px;
         margin-top: 64px;
-        gap: 24px;
+        gap: 36px;
     }
 
 
     .image1, .image2, .image3 {
         width: 300px;
         height: 340px; 
+        padding: 0;
+        margin: 0;
         
     }
 
@@ -726,31 +728,21 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 350px;
+        height: 440px;
         border: solid 1px #ffffff;
         border-radius: 0;
-    }
-
-
-    .news-grid {
-        width: 302px;
-        height: 385px;
-    }
-
-    .news-grid2 {
-        width: 302px;
-        height: 360px;
-    }
-
-    .news-grid3 {
-        width: 302px;
-        height: 400px;
+        gap: 0;
+        padding: 0;
+        margin: 0;
     }
 
     .grid-images p {
         font-family: "Montserrat";
         font-size: 16px;
         color: #ffffff;
-        margin: 24px 16px;
+        padding: 0;
+        margin: 0px 16px;
         text-align: justify;
     }
 
