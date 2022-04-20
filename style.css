@@ -622,7 +622,7 @@ body {
 
     .gameoverview h2 {
         font-size: 44px;
-        padding-top: 68%;
+        padding-top: 75%;
 
     }
 
@@ -654,8 +654,10 @@ body {
     .selectyourchampion {
         background-image: url(images/selectyouchampion.svg);
         background-size: cover;
+        background-repeat: no-repeat;
         background-position-x: -290px;
         min-height: 100vh;
+        min-width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -685,7 +687,8 @@ body {
     .news {
         background-image: url(images/news.svg);
         background-size: cover;
-        min-height: 220vh;    
+        min-height: 220vh;   
+        width: 100vw; 
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -717,7 +720,7 @@ body {
 
 
     .image1, .image2, .image3 {
-        width: 300px;
+        width: 250px;
         height: 340px; 
         padding: 0;
         margin: 0;
@@ -728,10 +731,10 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 350px;
+        width: 300px;
         height: 440px;
         border: solid 1px #ffffff;
-        border-radius: 0;
+        border-radius: 0px;
         gap: 0;
         padding: 0;
         margin: 0;
@@ -1091,4 +1094,103 @@ body {
             flex-direction: column;
         }
     
+}
+
+
+/* MOBILE VERSION MAX-WIDTH: 340PX */
+
+@media (max-width: 340px){
+
+    /* WELCOME SECTION - MOBILE */
+
+    .welcome-section {
+        min-height: 130vh;
+    }
+
+    /* GAME OVERVIEW SECTION - MOBILE */
+
+    .gameoverview {
+        min-height: 285vh;
+    }
+
+    .gameoverview h2 {
+        font-size: 36px;
+        padding: 70% 0 0 0;
+        text-align: center;
+
+    }
+
+    .grid-overview {
+        padding: 12% 0 0 0;
+        gap: 36px;
+        width: 85%;
+        margin: 0;
+        order: 2;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+/* SELECT YOUR CHAMPION SECTION - MOBILE MAX WIDTH: 340px*/
+
+    .selectyourchampion {
+        background-position-x: -250px;
+        min-height: 130vh;
+    }
+
+    .selectyourchampion h2 {
+        font-size: 36px;
+        padding-top: 20%;
+    }
+
+    .selectyourchampion p {
+        font-size: 12px;
+    } 
+
+    .button2 {
+        font-size: 12px;
+        padding: 8px 12px;
+        margin: 12px 40px 0px 0px;
+    }
+
+
+/* NEWS SECTION - MOBILE MAX WIDTH: 340px */
+
+    .news {
+        min-height: 290vh;    
+    }
+
+    .news h2 {
+        font-size: 36px;
+    }
+
+
+    .grid-images{
+        width: 250px;
+    }
+
+
+    .image1, .image2, .image3 {
+        width: 200px;
+        height: 230px;         
+    }
+
+    .news-grid, .news-grid2, .news-grid3 {
+        width: 250px;
+        height: 340px;
+    }
+
+
+    /* FOOTER MOBILE - MAX WIDTH: 340px */
+
+    .footer-container {
+        min-height: 140vh;
+    }
+
+    .wild-logo {
+        width: 50%;
+    }
+
 }
