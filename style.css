@@ -270,7 +270,7 @@ body {
     font-style: italic;
     font-weight: bold;
     font-size: 100px;
-    padding: 11% 5% 0% 0%;
+    padding: 13% 5% 0% 0%;
     line-height: 0.9;
 }
 
@@ -342,6 +342,7 @@ body {
     font-weight: bold;
     font-size: 90px;
     line-height: 0.9;
+    padding-top: 1%;
 }
 
 
@@ -425,7 +426,7 @@ body {
 }
 
 .riot-logo {
-    padding-top: 24%;
+    padding-top: 28%;
 }
 
 .platforms2 {
@@ -1201,7 +1202,8 @@ body {
 
 }
 
-@media (max-height: 667px){
+@media (max-height: 667px) and (max-width: 768px){
+
     .gameoverview {
         min-height: 210vh;
     }
