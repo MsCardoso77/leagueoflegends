@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
 
 
 * {
@@ -276,8 +276,8 @@ body {
 
 .selectyourchampion p {
     font-family: "Montserrat";
-    color: #ffffff;
-    font-weight: 200;
+    color: #fff;
+    font-weight: 300;
     font-size: 12px;
     margin: 32px 150px 0px 800px;
     text-align: justify;
@@ -625,7 +625,7 @@ body {
 
     .gameoverview h2 {
         font-size: 44px;
-        padding-top: 70%;
+        padding-top: 60%;
 
     }
 
@@ -658,9 +658,8 @@ body {
         background-image: url(images/selectyouchampion.svg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position-x: -290px;
-        min-height: 100vh;
-        min-width: 100vw;
+        background-position-x: -320px;
+        min-height: 110vh;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -668,12 +667,13 @@ body {
 
     .selectyourchampion h2 {
         font-size: 44px;
-        padding-top: 25%;
+        padding-top: 28%;
         line-height: 0.9;
     }
 
     .selectyourchampion p {
         font-size: 16px;
+        font-weight: 0;
         margin: 0;
         padding: 8% 6% 2% 35%;
     } 
@@ -745,6 +745,7 @@ body {
 
     .grid-images p {
         font-family: "Montserrat";
+        font-weight: 400;
         font-size: 16px;
         color: #ffffff;
         padding: 0;
@@ -1113,12 +1114,13 @@ body {
     /* GAME OVERVIEW SECTION - MOBILE */
 
     .gameoverview {
-        min-height: 285vh;
+        min-height: 275vh;
     }
 
     .gameoverview h2 {
         font-size: 36px;
-        padding: 70% 0 0 0;
+        padding: 80% 0 0 0;
+        margin: 0;
         text-align: center;
 
     }
@@ -1145,7 +1147,7 @@ body {
 
     .selectyourchampion h2 {
         font-size: 36px;
-        padding-top: 20%;
+        padding-top: 30%;
     }
 
     .selectyourchampion p {
@@ -1162,11 +1164,12 @@ body {
 /* NEWS SECTION - MOBILE MAX WIDTH: 340px */
 
     .news {
-        min-height: 290vh;    
+        min-height: 270vh;    
     }
 
     .news h2 {
         font-size: 36px;
+        padding-top: 20%;
     }
 
 
@@ -1196,4 +1199,22 @@ body {
         width: 50%;
     }
 
+}
+
+@media (max-height: 667px){
+    .gameoverview {
+        min-height: 210vh;
+    }
+
+    .gameoverview h2 {
+        padding-top: 65%;
+    }
+
+    .selectyourchampion {
+        min-height: 125vh;
+    }
+
+    .news {
+        min-height: 255vh;
+    }
 }
